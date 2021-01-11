@@ -2,17 +2,16 @@
     display: inline-flex;
     flex-flow: column wrap;
     background-image: linear-gradient(to top right, #363434, #474040, #858585, #9e9d9d);
-    justify-content: stretch;
-    align-items: stretch;
+    justify-content: center;
+    align-items: center;
     padding: 80px;
 }
 
 
 .page-title {
-    font-size: 40px;
+    font-size: 45px;
     color: rgb(2, 2, 2);
     font-family: "cutive";
-    order: 1;
     display: inline-flex;
     flex-flow: column wrap;
     justify-content: center;
@@ -24,3 +23,54 @@
     margin: 15px;
     padding: 30px;
 }
+
+.nav {
+    font-size: 20px;
+    font-family: "cutive";
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: space-between;
+    width: 100%;
+    height: 20%;
+    background-image: radial-gradient(#edbe80, #d9963f);
+    border: 5px solid black;
+    margin: 15px;
+    padding: 30px;
+}
+
+a {
+    color: rgb(2, 2, 2);
+    text-decoration: none;
+}
+
+img {
+    width: 16%;
+    height: 16%;
+    padding: 1.5%;
+    display: inline-flex;
+}
+
+.content {
+    background-image: radial-gradient(#edbe80, #d9963f);
+    border: 5px solid black;
+    font-size: 20px;
+    font-family: "cutive";
+    display: inline-flex;
+    flex-flow: column wrap;
+    margin: 15px;
+    padding: 30px;
+}
+
+.footer {
+    width: 100%;
+    height: 5%;
+    background-image: radial-gradient(#edbe80, #d9963f);
+    border: 5px solid black;
+    font-size: 15px;
+    font-family: "cutive";
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
